@@ -130,8 +130,9 @@ router.post('/insert', (req, res) => {
   const image = req.body.image;
   const price = req.body.price;
   const description = req.body.description;
+  const email = req.body.email;
 
-  const menuData = new MenuData({ image, description, dishName, price });
+  const menuData = new MenuData({ image, description, dishName, price, email });
   menuData
     .save()
     .then(response => res.json(response))

@@ -1,4 +1,4 @@
 module.exports = {
-  mongoURI: 'mongodb://localhost:27017/meanloginreg',
+  mongoURI: 'mongodb://34.68.98.242:27017/meanloginreg',
   secretOrKey: 'secretsurebot'
 };
